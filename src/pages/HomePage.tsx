@@ -1,5 +1,11 @@
+import HomePageContent from "../components/BoardIndex";
+
 const HomePage = () => {
-  return <div>This is Home Page</div>;
+  return (
+    <>
+      <HomePageContent />
+    </>
+  );
 };
 
 export default HomePage;
